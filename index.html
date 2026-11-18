@@ -1,5 +1,52 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LakeDay Ventures</title>
-<style>body{font-family:system-ui,sans-serif;max-width:640px;margin:15vh auto;padding:0 16px;color:#222}a{color:#555}</style>
-</head><body><h1>LakeDay Ventures</h1><p><a href="/privacy/">Privacy policy</a></p></body></html>
+<meta name="description" content="LakeDay Ventures">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231e2a3d'/%3E%3Ccircle cx='32' cy='32' r='26' fill='%23f6f4ef'/%3E%3Cpath d='M6 40 L22 26 L28 31 L36 20 L58 40 Z' fill='%231e2a3d'/%3E%3C/svg%3E">
+<style>
+:root{--navy:#1e2a3d;--slate:#667280;--gold:#c2a46d;--paper:#f8f7f4;--line:#e4e2dc}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--paper);color:var(--navy);font-family:Montserrat,system-ui,sans-serif;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;min-height:100vh}
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:72px 24px}
+.mark{width:132px;height:132px;margin-bottom:28px}
+.word{font-family:"Libre Caslon Text",Georgia,serif;font-weight:700;font-size:clamp(44px,8vw,76px);letter-spacing:-.01em;line-height:1}
+.sub{font-weight:600;font-size:clamp(12px,1.6vw,15px);letter-spacing:.55em;margin:14px 0 0 .55em;color:var(--navy)}
+.rule{width:48px;height:2px;background:var(--gold);margin:36px auto 0}
+.tag{font-family:"Libre Caslon Text",Georgia,serif;font-size:clamp(20px,3vw,28px);line-height:1.4;color:var(--navy);max-width:20em}
+.tag span{display:block;color:var(--slate)}
+footer{border-top:1px solid var(--line);padding:22px 24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--slate)}
+footer a{color:var(--slate);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+footer a:hover{color:var(--navy);border-color:var(--gold)}
+</style>
+</head>
+<body>
+<main>
+  <svg class="mark" viewBox="0 0 120 120" role="img" aria-label="LakeDay Ventures logo">
+    <defs><clipPath id="c"><circle cx="60" cy="60" r="52"/></clipPath></defs>
+    <circle cx="60" cy="60" r="57" fill="none" stroke="#1e2a3d" stroke-width="6"/>
+    <g clip-path="url(#c)">
+      <rect width="120" height="120" fill="#f8f7f4"/>
+      <path d="M0 70 L30 52 L42 58 L62 36 L72 44 L78 40 L120 70 Z" fill="#1e2a3d"/>
+      <rect y="70" width="120" height="50" fill="#1e2a3d"/>
+      <rect x="10" y="76" width="100" height="2.4" fill="#f8f7f4"/>
+      <rect x="22" y="84" width="76" height="2" fill="#f8f7f4" opacity=".8"/>
+      <rect x="34" y="91" width="52" height="1.6" fill="#f8f7f4" opacity=".6"/>
+    </g>
+  </svg>
+  <h1 class="word">LakeDay</h1>
+  <div class="sub">VENTURES</div>
+  <div class="rule"></div>
+</main>
+<footer>
+  <span>&copy; 2026 LakeDay Ventures</span>
+  <a href="/privacy/">Privacy</a>
+</footer>
+</body>
+</html>
