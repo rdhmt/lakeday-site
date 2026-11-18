@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#1e2a3d"/>
+  <circle cx="32" cy="32" r="28.5" fill="#f3f1ec"/>
+  <clipPath id="i"><circle cx="32" cy="32" r="26"/></clipPath>
+  <g clip-path="url(#i)">
+    <path d="M24 40 L40 22 L58 40 Z" fill="#667280"/>
+    <path d="M4 40 L18 30 L23 33 L33 20 L46 40 Z" fill="#1e2a3d"/>
+    <rect x="0" y="40" width="64" height="30" fill="#1e2a3d"/>
+    <rect x="10" y="44.5" width="44" height="2" rx="1" fill="#f3f1ec"/>
+    <rect x="17" y="50" width="30" height="1.6" rx=".8" fill="#f3f1ec" opacity=".6"/>
+  </g>
+</svg>
